@@ -1,4 +1,5 @@
-﻿using Damdor.MVVM;
+﻿using Damdor.Binding;
+using Damdor.MVVM;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ namespace Damdor.Sample
     {
         [SerializeField, Bind]
         private Text nick;
-        [SerializeField, Bind]
+        [SerializeField, Bind, Bind( model: "Color")]
         private Text points;
     }
 

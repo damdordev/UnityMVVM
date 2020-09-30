@@ -1,7 +1,6 @@
 {
-    "name": "Assembly_Damdor_Code",
+    "name": "Assembly_Damdor_MVVM",
     "references": [
-        "GUID:0313474955318deb0b0709c17cdcf214",
         "GUID:6126270b6a8f7ee2dbe2da09cf132e8e"
     ],
     "includePlatforms": [],

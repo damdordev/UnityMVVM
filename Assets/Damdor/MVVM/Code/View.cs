@@ -6,7 +6,7 @@ namespace Damdor.MVVM
 {
     public abstract class View<TViewModel> : MonoBehaviour, ISetupable<TViewModel>
     {
-        private static Dictionary<Type, BindingGroup> bindings = new Dictionary<Type, BindingGroup>();
+        private static Dictionary<Type, BindingGroup.BindingGroup> bindings = new Dictionary<Type, BindingGroup.BindingGroup>();
         
         public void Setup(TViewModel model)
         {
@@ -21,7 +21,7 @@ namespace Damdor.MVVM
                 return;
             }
             
-            bindings[type] = new BindingGroup(type);
+            bindings[type] = new BindingGroup.BindingGroup(type);
         }
         
     }

@@ -1,4 +1,5 @@
 ﻿using Damdor.MVVM;
+using UnityEngine;
 
 namespace Damdor.Sample
 {
@@ -6,6 +7,7 @@ namespace Damdor.Sample
     {
         public string Nick => playerModel.Nick;
         public string Points => playerModel.Points.ToString();
+        public Color Color => playerModel.Color;
         
         private readonly PlayerModel playerModel;
 
