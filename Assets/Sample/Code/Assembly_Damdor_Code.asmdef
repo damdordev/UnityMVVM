@@ -1,0 +1,15 @@
+{
+    "name": "Assembly_Damdor_Code",
+    "references": [
+        "GUID:0313474955318deb0b0709c17cdcf214"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
