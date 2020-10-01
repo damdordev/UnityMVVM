@@ -1,28 +1,59 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Damdor.Binding;
 using UnityEngine;
 
 namespace Damdor.MVVM
 {
-    public abstract class View<TViewModel> : MonoBehaviour, ISetupable<TViewModel>
-    {
-        private static Dictionary<Type, BindingGroup.BindingGroup> bindings = new Dictionary<Type, BindingGroup.BindingGroup>();
-        
-        public void Setup(TViewModel model)
-        {
-            InitializeBindingForType(GetType());
-            bindings[GetType()].Bind(this, model);
-        }
+    public abstract class View<TModel> : MonoBehaviour, ISetupable<TModel> where TModel : class
 
-        private static void InitializeBindingForType(Type type)
+    {
+    protected BindingModel binding => _binding ?? (_binding = new BindingModel(this));
+
+    private BindingModel _binding;
+    protected TModel model;
+
+    public void Setup(TModel model)
+    {
+        Unbind();
+        this.model = model;
+        if (isActiveAndEnabled)
         {
-            if (bindings.ContainsKey(type))
-            {
-                return;
-            }
-            
-            bindings[type] = new BindingGroup.BindingGroup(type);
+            Bind();
         }
-        
+    }
+
+    protected virtual void OnEnable()
+    {
+        if (model != null)
+        {
+            Bind();
+        }
+    }
+
+    protected virtual void OnDisable()
+    {
+        Unbind();
+    }
+
+    protected virtual void BeforeBind()
+    {
+    }
+
+    protected virtual void OnBind()
+    {
+    }
+
+    private void Bind()
+    {
+        BeforeBind();
+        binding.Bind(model);
+        OnBind();
+    }
+
+    private void Unbind()
+    {
+        binding.Unbind();
+        model = null;
+    }
+
     }
 }

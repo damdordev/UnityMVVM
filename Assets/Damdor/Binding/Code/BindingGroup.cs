@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Damdor.Binding;
+using UnityEngine;
 
-namespace BindingGroup
+namespace Binding
 {
 
     public class BindingGroup
     {
-        private Type viewType;
-        private Type modelViewType;
-        
-        private List<Damdor.Binding.Binding> bindings = new List<Damdor.Binding.Binding>();
+        private readonly List<BaseBinding> bindings = new List<BaseBinding>();
 
         public BindingGroup(Type viewType)
         {
-            this.viewType = viewType;
-            modelViewType = viewType.BaseType.GetGenericArguments()[0];
+            var modelViewType = viewType.BaseType.GetGenericArguments()[0];
 
             foreach (var (field, bind) in GetBindingsFields(viewType))
             {
@@ -25,11 +22,11 @@ namespace BindingGroup
             }
         }
 
-        public void Bind(object view, object modelView)
+        public void AssignValues(object view, object model)
         {
             foreach (var binding in bindings)
             {
-                binding.Bind(view, modelView);
+                binding.AssignValues(view, model);
             }
         }
 
@@ -43,6 +40,6 @@ namespace BindingGroup
         {
             return bind.Model ?? char.ToUpper(field.Name[0]) + field.Name.Substring(1);
         }
-        
+
     }
 }

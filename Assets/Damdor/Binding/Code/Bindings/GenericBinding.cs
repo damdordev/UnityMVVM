@@ -1,16 +1,17 @@
 ﻿using System.Reflection;
+using UnityEngine;
 
 namespace Damdor.Binding
 {
     
-    public abstract class GenericBinding<TView, TModel> : Binding
+    public abstract class GenericBinding<TView, TModel> : BaseBinding
     {
         protected GenericBinding(Bind bind, FieldInfo getViewField, MethodBase getModelField)
             : base(bind, getViewField, getModelField)
         {
         }
         
-        public override void Bind(object view, object viewModel)
+        public override void AssignValues(object view, object viewModel)
         {
             Bind(GetViewFieldValue<TView>(view), GetViewModelFieldValue<TModel>(viewModel));
         }

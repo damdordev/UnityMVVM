@@ -9,7 +9,7 @@ namespace Damdor.Binding
     public class BindingFactory
     {
 
-        public static Binding CreateBinding(Bind bind, FieldInfo field, MethodInfo getModel)
+        public static BaseBinding CreateBinding(Bind bind, FieldInfo field, MethodInfo getModel)
         {
             if (field.FieldType == typeof(Text) && getModel.ReturnType == typeof(string))
             {

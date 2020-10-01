@@ -13,18 +13,26 @@
             <e p="Code" t="Include">
               <e p="Assembly_Damdor_Binding.asmdef" t="Include" />
               <e p="Bind.cs" t="Include" />
-              <e p="Binding.cs" t="Include" />
               <e p="BindingFactory.cs" t="Include" />
               <e p="BindingGroup.cs" t="Include" />
-              <e p="GenericBinding.cs" t="Include" />
-              <e p="TextBinding.cs" t="Include" />
-              <e p="TextColorBinding.cs" t="Include" />
+              <e p="BindingModel.cs" t="Include" />
+              <e p="Bindings" t="Include">
+                <e p="BaseBinding.cs" t="Include" />
+                <e p="GenericBinding.cs" t="Include" />
+                <e p="TextBinding.cs" t="Include" />
+                <e p="TextColorBinding.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="IBindListener.cs" t="Include" />
+                <e p="ISetupable.cs" t="Include" />
+                <e p="IUpdatable.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="MVVM" t="Include">
             <e p="Code" t="Include">
               <e p="Assembly_Damdor_MVVM.asmdef" t="Include" />
-              <e p="ISetupable.cs" t="Include" />
+              <e p="Model.cs" t="Include" />
               <e p="View.cs" t="Include" />
               <e p="ViewModel.cs" t="Include" />
             </e>

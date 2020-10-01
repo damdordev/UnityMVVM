@@ -1,4 +1,4 @@
-﻿namespace Damdor.MVVM
+﻿namespace Damdor.Binding
 {
     public interface ISetupable<T>
     {
