@@ -3,12 +3,12 @@
 namespace Damdor.Binding
 {
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = true)]
-    public class Bind : Attribute
+    public class BindModel : Attribute
     {
         public string View { get; }
         public string Model { get; }
 
-        public Bind(string view = null, string model = null)
+        public BindModel(string view = null, string model = null)
         {
             View = view;
             Model = model;

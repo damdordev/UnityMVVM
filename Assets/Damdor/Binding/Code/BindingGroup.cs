@@ -30,13 +30,13 @@ namespace Binding
             }
         }
 
-        private static IEnumerable<(FieldInfo field, Bind bin)> GetBindingsFields(Type modelType)
+        private static IEnumerable<(FieldInfo field, BindModel bin)> GetBindingsFields(Type modelType)
         {
             return modelType.GetFields(BindingFlags.Instance | BindingFlags.NonPublic)
-                            .SelectMany(field => field.GetCustomAttributes<Bind>().Select(bind => (field, bind)));
+                            .SelectMany(field => field.GetCustomAttributes<BindModel>().Select(bind => (field, bind)));
         }
 
-        private static string GetBindPropertyName(FieldInfo field, Bind bind)
+        private static string GetBindPropertyName(FieldInfo field, BindModel bind)
         {
             return bind.Model ?? char.ToUpper(field.Name[0]) + field.Name.Substring(1);
         }

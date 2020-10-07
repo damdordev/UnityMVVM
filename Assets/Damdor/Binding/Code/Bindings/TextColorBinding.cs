@@ -6,7 +6,7 @@ namespace Damdor.Binding
 {
     public class TextColorBinding : GenericBinding<Text, Color>
     {
-        public TextColorBinding(Bind bind, FieldInfo getViewField, MethodBase getModelField)
+        public TextColorBinding(BindModel bind, FieldInfo getViewField, MethodBase getModelField)
             : base(bind, getViewField, getModelField) { }
 
         protected override void Bind(Text view, Color model)

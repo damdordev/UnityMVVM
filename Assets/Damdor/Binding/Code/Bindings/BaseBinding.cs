@@ -10,7 +10,7 @@ namespace Damdor.Binding
         private readonly FieldInfo getViewField;
         private readonly MethodBase getModelField;
 
-        protected BaseBinding(Bind bind, FieldInfo getViewField, MethodBase getModelField)
+        protected BaseBinding(BindModel bind, FieldInfo getViewField, MethodBase getModelField)
         {
             this.getViewField = getViewField;
             this.getModelField = getModelField;

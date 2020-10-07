@@ -5,7 +5,7 @@ namespace Damdor.Binding
 {
     public class TextBinding : GenericBinding<Text, string>
     {
-        public TextBinding(Bind bind, FieldInfo getViewField, MethodBase getModelField)
+        public TextBinding(BindModel bind, FieldInfo getViewField, MethodBase getModelField)
             : base(bind, getViewField, getModelField) { }
 
         protected override void Bind(Text view, string model)

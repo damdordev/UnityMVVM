@@ -9,9 +9,9 @@ namespace Damdor.Sample
 
     public class PlayerView : View<PlayerViewModel>
     {
-        [SerializeField, Bind]
+        [SerializeField, BindModel]
         private Text nick;
-        [SerializeField, Bind, Bind( model: "Color")]
+        [SerializeField, BindModel, BindModel( model: "Color")]
         private Text points;
     }
 

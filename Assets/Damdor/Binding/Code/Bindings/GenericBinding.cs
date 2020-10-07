@@ -6,7 +6,7 @@ namespace Damdor.Binding
     
     public abstract class GenericBinding<TView, TModel> : BaseBinding
     {
-        protected GenericBinding(Bind bind, FieldInfo getViewField, MethodBase getModelField)
+        protected GenericBinding(BindModel bind, FieldInfo getViewField, MethodBase getModelField)
             : base(bind, getViewField, getModelField)
         {
         }
