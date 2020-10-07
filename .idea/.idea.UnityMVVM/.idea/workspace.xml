@@ -11,7 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0e991ab-01a5-44f4-b10f-bf87fb0b2066" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/BaseBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/BaseBinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/GenericBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/GenericBinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/SetupableBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/SetupableBinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextBinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextColorBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextColorBinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample/sample.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +41,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/SetupableBinding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CA781A5-BD79-42B9-A5E7-C3426A064AFE/58/59b7e315/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/MVVM/Code/Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sample/Code/ViewModel/SummaryViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sample/Code/TestCode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/Interfaces/IBindListener.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,8 +54,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/b2/e8009879/Type.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/Interfaces/ISetupable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/a2/f882e591/CustomAttributeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sample/Code/Model/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0AEBECE-50D2-4E16-B399-75B84DF5FDB3/3d/3b706ecf/ISubmitHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,10 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/ViewModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/Model.cs" />
         <option value="$PROJECT_DIR$/Assets/Sample/Code/TestCode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/GenericBinding.cs" />
-        <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/View.cs" />
         <option value="$PROJECT_DIR$/Assets/Sample/Code/Window.cs" />
         <option value="$PROJECT_DIR$/Assets/Sample/Code/SummaryWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/Sample/Code/SummaryViewModel.cs" />
@@ -81,8 +101,12 @@
         <option value="$PROJECT_DIR$/Assets/Sample/Code/Model/Server.cs" />
         <option value="$PROJECT_DIR$/Assets/Sample/Code/ViewModel/SummaryViewModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/View.cs" />
+        <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +153,7 @@
       <workItem from="1601043757479" duration="109000" />
       <workItem from="1601327788864" duration="6634000" />
       <workItem from="1601499872950" duration="15100000" />
-      <workItem from="1602102601932" duration="1690000" />
+      <workItem from="1602102601932" duration="4995000" />
     </task>
     <servers />
   </component>
@@ -158,70 +182,70 @@
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
     <state width="1635" height="762" key="DebuggerActiveHint/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104222663" />
-    <state width="1874" height="399" key="GridCell.Tab.0.bottom" timestamp="1602104192175">
+    <state width="1874" height="399" key="GridCell.Tab.0.bottom" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.0.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104192175" />
-    <state width="1874" height="399" key="GridCell.Tab.0.center" timestamp="1602104192175">
+    <state width="1874" height="399" key="GridCell.Tab.0.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.0.center" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.0.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104192175" />
-    <state width="1874" height="399" key="GridCell.Tab.0.left" timestamp="1602104192175">
+    <state width="1874" height="399" key="GridCell.Tab.0.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.0.left" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.0.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104192175" />
-    <state width="1874" height="399" key="GridCell.Tab.0.right" timestamp="1602104192175">
+    <state width="1874" height="399" key="GridCell.Tab.0.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.0.right" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.0.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104192175" />
-    <state width="1874" height="399" key="GridCell.Tab.1.bottom" timestamp="1602104209693">
+    <state width="1874" height="399" key="GridCell.Tab.0.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.1.bottom" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.1.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104209693" />
-    <state width="1874" height="399" key="GridCell.Tab.1.center" timestamp="1602104209693">
+    <state width="1874" height="399" key="GridCell.Tab.1.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.1.center" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.1.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104209693" />
-    <state width="1874" height="399" key="GridCell.Tab.1.left" timestamp="1602104209693">
+    <state width="1874" height="399" key="GridCell.Tab.1.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.1.left" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.1.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104209693" />
-    <state width="1874" height="399" key="GridCell.Tab.1.right" timestamp="1602104209693">
+    <state width="1874" height="399" key="GridCell.Tab.1.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.1.right" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.1.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602104209693" />
-    <state width="1874" height="399" key="GridCell.Tab.2.bottom" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.1.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.2.bottom" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.2.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
-    <state width="1874" height="399" key="GridCell.Tab.2.center" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.2.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.2.center" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.2.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
-    <state width="1874" height="399" key="GridCell.Tab.2.left" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.2.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.2.left" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.2.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
-    <state width="1874" height="399" key="GridCell.Tab.2.right" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.2.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.2.right" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.2.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
-    <state width="1874" height="399" key="GridCell.Tab.3.bottom" timestamp="1601589799982">
+    <state width="1874" height="399" key="GridCell.Tab.2.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.3.bottom" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.3.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799982" />
-    <state width="1874" height="399" key="GridCell.Tab.3.center" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.3.bottom/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.3.center" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.3.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
-    <state width="1874" height="399" key="GridCell.Tab.3.left" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.3.center/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.3.left" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.3.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
-    <state width="1874" height="399" key="GridCell.Tab.3.right" timestamp="1601589799981">
+    <state width="1874" height="399" key="GridCell.Tab.3.left/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
+    <state width="1874" height="399" key="GridCell.Tab.3.right" timestamp="1602107496742">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state width="1874" height="399" key="GridCell.Tab.3.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601589799981" />
+    <state width="1874" height="399" key="GridCell.Tab.3.right/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107496742" />
     <state x="755" y="222" width="399" height="643" key="RiderGenerateDialog" timestamp="1601587977104">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
@@ -230,29 +254,12 @@
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
     <state x="172" y="200" width="1720" height="880" key="VCS.FileHistoryDialog/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1601584935105" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1602103669746">
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1602107590767">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602103669746" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/1920.1080.1920.1080/72.0.1848.1080@72.0.1848.1080" timestamp="1602107590767" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" initialLine="29">
-            <startOffsets>
-              <option value="890" />
-            </startOffsets>
-            <endOffsets>
-              <option value="931" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Reflection.TypeInfo" memberName="DeclaredConstructors" />
@@ -264,6 +271,7 @@
         <watch expression="args" language="C#" />
         <watch expression="GetViewModelFieldValue&lt;TModel&gt;(viewModel)" language="C#" />
         <watch expression="GetViewFieldValue&lt;TView&gt;(view)" language="C#" />
+        <watch expression="GetActionMethodName(field, bind)" language="C#" />
       </configuration>
     </watches-manager>
   </component>

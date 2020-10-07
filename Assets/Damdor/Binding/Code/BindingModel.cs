@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Binding;
+using UnityEngine.UI;
 
 namespace Damdor.Binding
 {
@@ -10,6 +11,8 @@ namespace Damdor.Binding
         private static readonly Dictionary<Type, BindingGroup> bindings = new Dictionary<Type, BindingGroup>();
 
         private BindingGroup binding;
+        private BindingData data;
+        
         private object view;
         private object model;
         private bool isBinded;
@@ -42,10 +45,12 @@ namespace Damdor.Binding
 
         public void Unbind()
         {
-            if (isBinded)
+            if (!isBinded)
             {
                 return;
             }
+            
+            binding.Unbind(data);
 
             if (model is IUpdatable updatable)
             {
@@ -63,7 +68,7 @@ namespace Damdor.Binding
 
         private void UpdateValues()
         {
-            binding.AssignValues(view, model);
+            data = binding.Bind(view, model, data);
         }
 
         private static void InitializeBindingForType(Type type)

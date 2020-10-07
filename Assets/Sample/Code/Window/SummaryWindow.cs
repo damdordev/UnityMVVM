@@ -1,5 +1,4 @@
-﻿using System;
-using Damdor.Binding;
+﻿using Damdor.Binding;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,13 +11,8 @@ namespace Damdor.Sample
         private PlayerView player;
         [SerializeField, BindModel]
         private PlayerView opponent;
-        [SerializeField]
-        private Button increasePlayerPointsButton;
-
-        private void Awake()
-        {
-            increasePlayerPointsButton.onClick.AddListener(() => model.IncreasePlayerPoints());
-        }
+        [SerializeField, BindAction]
+        private Button button_IncreasePlayerPoints;
         
         private void Start()
         {

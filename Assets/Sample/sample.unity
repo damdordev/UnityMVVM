@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1586109760}
   opponent: {fileID: 1415377542}
-  increasePlayerPointsButton: {fileID: 1523661877}
+  button_IncreasePlayerPoints: {fileID: 1523661877}
 --- !u!114 &195225047
 MonoBehaviour:
   m_ObjectHideFlags: 0

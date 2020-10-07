@@ -34,23 +34,21 @@ namespace Damdor.MVVM
             Unbind();
         }
 
-        protected virtual void BeforeBind()
-        {
-        }
-
-        protected virtual void OnBind()
-        {
-        }
+        protected virtual void OnBind() { }
+        protected virtual void OnUnbind(){}
 
         private void Bind()
         {
-            BeforeBind();
             binding.Bind(model);
             OnBind();
         }
 
         private void Unbind()
         {
+            if (model != null)
+            {
+                OnUnbind();
+            }
             binding.Unbind();
             model = null;
         }
