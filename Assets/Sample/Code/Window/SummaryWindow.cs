@@ -13,10 +13,5 @@ namespace Damdor.Sample
         private PlayerView opponent;
         [SerializeField, BindAction]
         private Button button_IncreasePlayerPoints;
-        
-        private void Start()
-        {
-            Setup(new SummaryViewModel(Server.Player, Server.Opponent));
-        }
     }
 }

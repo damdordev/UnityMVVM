@@ -13,22 +13,7 @@
     <list default="true" id="b0e991ab-01a5-44f4-b10f-bf87fb0b2066" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityMVVM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/BaseBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/BaseBinding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/GenericBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/GenericBinding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/SetupableBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/SetupableBinding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextBinding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextColorBinding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/Binding/Code/Bindings/TextColorBinding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Damdor/MVVM/Code/View.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sample/sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample/sample.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +24,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CA781A5-BD79-42B9-A5E7-C3426A064AFE/58/59b7e315/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/MVVM/Code/Model.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sample/Code/ViewModel/SummaryViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/63/6af1305e/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CA781A5-BD79-42B9-A5E7-C3426A064AFE/58/59b7e315/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sample/Code/TestCode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/Interfaces/IBindListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/63/6af1305e/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/b2/e8009879/Type.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sample/Code/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Damdor/Binding/Code/Interfaces/ISetupable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/a2/f882e591/CustomAttributeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -60,7 +47,6 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0AEBECE-50D2-4E16-B399-75B84DF5FDB3/3d/3b706ecf/ISubmitHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -107,6 +93,7 @@
         <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Damdor/Binding/Code/BindingGroup.cs" />
         <option value="$PROJECT_DIR$/Assets/Sample/Code/Window/SummaryWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sample/Code/Game.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +140,7 @@
       <workItem from="1601043757479" duration="109000" />
       <workItem from="1601327788864" duration="6634000" />
       <workItem from="1601499872950" duration="15100000" />
-      <workItem from="1602102601932" duration="4995000" />
+      <workItem from="1602102601932" duration="5086000" />
     </task>
     <servers />
   </component>
